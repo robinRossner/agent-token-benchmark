@@ -1,0 +1,16 @@
+{
+  "name": "taskflow",
+  "version": "0.4.0",
+  "description": "TaskFlow - a small project and task tracker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "lint": "node scripts/lint.js",
+    "start": "node api/main.js",
+    "serve:web": "node scripts/serve-web.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

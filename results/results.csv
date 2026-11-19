@@ -1,0 +1,8 @@
+phase,arm,task,rep,turns,tool_uses,duration_s,cache_write,cache_read,output,total_tokens,cost_usd_sonnet,hidden_pass,hidden_total,visible_ok,lint_ok,lines_added
+setup,discovery,-,-,11,28,181,85416,629062,12321,726821,0.69,,,,,
+setup,fixtures,-,-,37,39,881,186935,4749948,126470,5063427,4.02,,,,,
+pilot,baseline,T3,1,6,6,31,19143,292659,1616,313430,0.18,6,6,true,true,15
+pilot,rtk,T3,1,9,11,52,23007,473283,2589,498897,0.27,6,6,true,true,17
+pilot,caveman,T3,1,7,8,27,21886,354258,1949,378107,0.22,6,6,true,true,17
+pilot,ponytail,T3,1,6,6,20,19950,295718,1311,316991,0.18,6,6,true,true,7
+pilot,codemap,T3,1,4,4,15,19635,189391,1086,210120,0.15,6,6,true,true,17
